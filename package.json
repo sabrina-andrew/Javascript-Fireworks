@@ -4,10 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "parcel-bundler": "^1.12.2"  
-},
-"scripts": {
+    "parcel-bundler": "^1.12.2"
+  },
+  "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html"
-  } 
+  },
+  "dependencies": {
+    "fireworks-canvas": "^2.3.1"
+  }
 }
